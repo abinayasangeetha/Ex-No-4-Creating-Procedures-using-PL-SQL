@@ -12,6 +12,7 @@ To create a procedure using PL/SQL.
 6. Display the employee table
 
 ### Program:
+```
 create or replace procedure insert_emp_data AS
 begin
 insert into employeetbl1 (Empid,Empname,Dept,Salary)
@@ -31,6 +32,7 @@ end;
 /
 
 PL/SQL procedure successfully completed.
+```
 ### Output:
 ![dbms op4](https://github.com/abinayasangeetha/Ex-No-4-Creating-Procedures-using-PL-SQL/assets/119393675/5d85fefa-22aa-4026-bcda-ae76ddf223c4)
 ![Screenshot 2023-09-30 194332](https://github.com/abinayasangeetha/Ex-No-4-Creating-Procedures-using-PL-SQL/assets/119393675/956624c1-7d4a-452e-854b-ee8f16a00d91)
